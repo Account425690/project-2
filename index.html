@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class = "container">
+        <div class = "start">
+            <h1 class = "title">Programming School "Hello World"</h1>
+            <hr class ="hr1">
+            <p class = "welcome_text">Hello! We are very happy, that you decided to join us. Please, fill out the registration form below</p>
+        </div>
+            
+        <img class = "logo" src="img/logo.png" alt="">
+
+        <div class = "form">
+
+            <a class = "nav-link" href="login.html">Login</a>
+            <a class = "nav-link nav-active"href="index.html">Register</a>
+
+
+
+            <form>
+                <div class = "create_username">
+                    <label class = "subtitle">Username</label>
+                    <input class = "input" type="text" id="Username" placeholder="Username" name = "username">
+                </div>
+                
+
+                <div class="create_password">
+                    <label class = "subtitle">Create Password</label>
+                    <input class = "input"type="password" id="Password" placeholder="Password" name = "password">
+                </div>
+
+
+                <div class = "pick_gender">
+                    <p class = "subtitle">Pick Gender</p>
+
+                    <input type="radio" name = "radio">
+                    <label class = "gender">Boy</label>
+                    
+                    
+                    <input type="radio" name = "radio">
+                    <label class = "gender">Girl</label>
+                
+                </div>
+
+
+                <div>
+                    <p class="subtitle">Pick Your Courses</p>
+
+                    <input type="Checkbox" name = "frontend">
+                    <label class = "courses">Frontend</label>
+                    
+                    <input type="Checkbox" name = "roblox">
+                    <label class = "courses">Roblox</label>
+                    
+                    <input type="Checkbox" name = "figma">
+                    <label class = "courses">Figma</label>
+                    
+                    <input type="Checkbox" name = "scratch">
+                    <label class = "courses">Scratch</label>
+                    
+                    <input type="Checkbox" name = "python">
+                    <label class = "courses">Python</label>
+                    
+                    <input type="Checkbox" name = "unity">
+                    <label class = "courses">Unity</label>
+                    
+
+                </div>
+
+                <div>
+                    <label class = "subtitle">Tell Us A Little Bit About Yourself</label>
+                    <textarea class = "about"placeholder="Talk About Yourself!" name = "text"></textarea>
+                    <button class = "button">Register</button>
+                    <hr class = "hr2">
+                  
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
